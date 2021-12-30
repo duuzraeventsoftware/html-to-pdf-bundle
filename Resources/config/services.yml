@@ -3,7 +3,7 @@ parameters:
 
 services:
     ep_html_to_pdf.converter:
-        class: %ep_html_to_pdf.converter.class%
+        class: "%ep_html_to_pdf.converter.class%"
         arguments: ["@ep_html_to_pdf.mpdf_driver"]
     ep_html_to_pdf.wkhtmltopdf_driver:
         class: EP\Bundle\HtmlToPdfBundle\Drivers\WkHtmlToPdfDriver
